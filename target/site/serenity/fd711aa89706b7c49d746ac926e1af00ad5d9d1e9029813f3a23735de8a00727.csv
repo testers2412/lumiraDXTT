@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Categories Functionality","I should be able to create a new category successfully","SUCCESS","2022-02-24T23:42:19.836Z[Europe/London]","0.0","3.7"
+"Categories Functionality","I should be able to update the newly created category","SUCCESS","2022-02-24T23:42:24.610Z[Europe/London]","0.0","0.08"
+"Categories Functionality","I should be able to delete the newly created ID successfully","SUCCESS","2022-02-24T23:42:24.723Z[Europe/London]","0.0","0.1"

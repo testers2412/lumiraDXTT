@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Categories Functionality" skipped="0" tests="4" time="3.93" timestamp="2022-02-24T23:42:19.836Z[Europe/London]"><testcase name="I should be able to create a new category successfully"/><testcase name="I should be able to read the newly created category successfully"><failure message="&#10;Expected: &quot;Health&quot;&#10;     but: was &quot;ealth&quot;" type="java.lang.AssertionError">
+Expected: "Health"
+     but: was "ealth"</failure><system-err>
+Expected: "Health"
+     but: was "ealth"&#13;
+com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfullyWithCorrectName(CategoriesStepDefs.java:78)&#13;
+✽.Then I verify the new category has been created successfully with correct name(categories.feature:12)&#13;
+</system-err></testcase><testcase name="I should be able to update the newly created category"/><testcase name="I should be able to delete the newly created ID successfully"/></testsuite>

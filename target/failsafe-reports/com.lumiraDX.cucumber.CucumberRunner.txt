@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.lumiraDX.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.344 sec <<< FAILURE! - in com.lumiraDX.cucumber.CucumberRunner
+Then I verify the new category has been created successfully with correct name(Scenario: I should be able to read the newly created category successfully)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "Health"
+     but: was "ealth"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfullyWithCorrectName(CategoriesStepDefs.java:78)
+	at ✽.Then I verify the new category has been created successfully with correct name(categories.feature:12)
+
+Scenario: I should be able to read the newly created category successfully  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "Health"
+     but: was "ealth"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfullyWithCorrectName(CategoriesStepDefs.java:78)
+	at ✽.Then I verify the new category has been created successfully with correct name(categories.feature:12)
+

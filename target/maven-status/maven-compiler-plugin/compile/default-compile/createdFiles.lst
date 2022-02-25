@@ -1,0 +1,6 @@
+com\lumiraDX\constants\EndPoints.class
+com\lumiraDX\utils\TestUtils.class
+com\lumiraDX\utils\PropertyReader.class
+com\lumiraDX\constants\Path.class
+com\lumiraDX\model\CategoriesPojo.class
+com\lumiraDX\categoriesinfo\CategoriesSteps.class

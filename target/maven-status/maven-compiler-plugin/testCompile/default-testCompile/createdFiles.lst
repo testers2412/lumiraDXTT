@@ -1,0 +1,3 @@
+com\lumiraDX\cucumber\steps\CategoriesStepDefs.class
+com\lumiraDX\cucumber\CucumberRunner.class
+com\lumiraDX\testbase\TestBase.class

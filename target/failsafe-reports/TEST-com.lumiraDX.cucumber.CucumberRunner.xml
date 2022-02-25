@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lumiraDX.cucumber.CucumberRunner" time="0.985" tests="13" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Regression"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\patel\Homework\lumiraDX"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\patel\Homework\lumiraDX"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\patel\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\BIN;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.2\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\patel\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\patel\AppData\Local\Programs\Python\Python39\;C:\Users\patel\AppData\Local\Microsoft\WindowsApps;C:\Users\patel\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\patel"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="patel"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.2 clean verify -Dcucumber.options=--tags @Regression serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When I create a new category &quot;Health&quot;" classname="Scenario: I should be able to create a new category successfully" time="0.001"/>
+  <testcase name="And I extract the ID of the newly created category" classname="Scenario: I should be able to create a new category successfully" time="0"/>
+  <testcase name="Then I verifies the new category has been created successfully by ID" classname="Scenario: I should be able to create a new category successfully" time="0"/>
+  <testcase name="Scenario: I should be able to create a new category successfully" classname="Scenario: I should be able to create a new category successfully" time="0.91"/>
+  <testcase name="When I read the newly created category by ID" classname="Scenario: I should be able to read the newly created category successfully" time="0"/>
+  <testcase name="Then I verify the new category has been created successfully with correct name" classname="Scenario: I should be able to read the newly created category successfully" time="0.005">
+    <failure message="&#10;Expected: &quot;Health&quot;&#10;     but: was &quot;ealth&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: "Health"
+     but: was "ealth"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfullyWithCorrectName(CategoriesStepDefs.java:78)
+	at ✽.Then I verify the new category has been created successfully with correct name(categories.feature:12)
+</failure>
+    <system-out><![CDATA[Expected name is : Health
+Actual name is : ealth
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: I should be able to read the newly created category successfully" classname="Scenario: I should be able to read the newly created category successfully" time="0.005">
+    <failure message="&#10;Expected: &quot;Health&quot;&#10;     but: was &quot;ealth&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: "Health"
+     but: was "ealth"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.lumiraDX.cucumber.steps.CategoriesStepDefs.iVerifyTheNewCategoryHasBeenCreatedSuccessfullyWithCorrectName(CategoriesStepDefs.java:78)
+	at ✽.Then I verify the new category has been created successfully with correct name(categories.feature:12)
+</failure>
+  </testcase>
+  <testcase name="When I update the newly created category &quot;Updated_Health&quot;" classname="Scenario: I should be able to update the newly created category" time="0"/>
+  <testcase name="Then I should verify that the update has been performed successfully" classname="Scenario: I should be able to update the newly created category" time="0"/>
+  <testcase name="Scenario: I should be able to update the newly created category" classname="Scenario: I should be able to update the newly created category" time="0.034"/>
+  <testcase name="When I delete the newly created category by ID" classname="Scenario: I should be able to delete the newly created ID successfully" time="0"/>
+  <testcase name="Then I should verify that the deletion has been performed successfully" classname="Scenario: I should be able to delete the newly created ID successfully" time="0"/>
+  <testcase name="Scenario: I should be able to delete the newly created ID successfully" classname="Scenario: I should be able to delete the newly created ID successfully" time="0.03"/>
+</testsuite>
